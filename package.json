@@ -1,7 +1,20 @@
 {
-  "private": true,
-  "dependencies": {
-    "@vercel/edge": "^0.1.2",
-    "vercel": "^37.6.0"
-  }
+	"name": "express",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.ts",
+	"scripts": {
+		"start": "node ./api/index.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.4.1",
+		"express": "^4.21.0",
+		"express-handlebars": "^8.0.1"
+	},
+	"devDependencies": {
+		"@types/node": "^22.7.4"
+	}
 }
